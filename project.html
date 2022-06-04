@@ -1,0 +1,440 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+    <title>project</title>
+    <style>
+     section
+     {
+
+     padding: 60px 0;
+
+     }
+
+
+    </style>
+</head>
+<body class="bg-info">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary" href="#ecoomerce">E-commerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  content
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#action">Action</a></li>
+                  <li><a class="dropdown-item" href="#anotheraction">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#else">Something else here</a></li>
+                </ul>
+              </li>
+              
+              <a class="navbar-brand text-secondary" href="#ecoomerce" >more about products</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </ul>
+            <a href="#pricing" class="btn btn-secondary btn-lg bg-primary">About me</a>
+          </div>
+        </div>
+      </nav>
+  <main>
+
+    <div class="container-lg">
+      <div class="row justify- content-center">
+      <div class="col-md-5 text center text-md-start">
+          <h1>
+          <div class="display-2 ">Searchgo</div>
+          <div class="display-5 text muted ">welcome to searchgo</div>
+         </h1>
+         <p class="lead my-4 text muted">Search your Product Easily</p>
+         <form class="d-flex">
+          <input class="form-control me-2" id="searchbar" type="search" placeholder="Search" onkeyup="searchproduct()"  aria-label="Search">
+          <button class="btn btn-outline-success bg-primary" type="submit">Search</button>
+        </form>
+         </h1>   
+         </div>
+      <div class="col-md-5 text center d-none d-md-block">
+      <img class="img-fluid" src="/images/customer-buying-ecommerce-website-flat-design-concept-online-shopping-e-payment-transaction-browse-product-store-vector-157631942-removebg-preview.png" alt="This is marvel">
+      </div>
+      </div>
+      </div>
+      </section>
+  </main>    
+   <section id="carding" class="mt-5">
+     <div class="card-lists" id="card-lists"></div>
+     <div class="container-lg">
+       <div class="text-center">
+         <h3>Products Avaliable</h3>
+       </div>
+       <div class ="row my-5 align-item-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+         <div class="card" id="card" style="width: 18rem;">
+            <img src="https://dummyjson.com/image/i/products/1/thumbnail.jpg" class="card-img-top" alt="jkj">
+            <div class="card-body">
+              <h5 class="card-title">iPhone 9</h5>
+              <p class="card-text"> An apple mobile which is nothing like apple</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">price:549</li>
+              <li class="list-group-item">discountPercentage: 12.96</li>
+              <li class="list-group-item">rating: 4.69</li>
+            </ul>
+            </div>
+          </div>
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card" id="card" style="width: 18rem;">
+              <img src="https://dummyjson.com/image/i/products/2/thumbnail.jpg" class="card-img-top" alt="jkj">
+              <div class="card-body">
+                <h5 class="card-title">iPhone X</h5>
+                <p class="card-text"> SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">price:599</li>
+                <li class="list-group-item">discountPercentage: 17.94</li>
+                <li class="list-group-item">rating: 4.4</li>
+              </ul>
+              </div>     
+          </div>
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card" id="card" style="width: 18rem;">
+              <img src="https://dummyjson.com/image/i/products/3/thumbnail.jpg" class="card-img-top" alt="jkj">
+              <div class="card-body">
+                <h5 class="card-title">Samsung Univers 9 </h5>
+                <p class="card-text">Samsung's new variant which goes beyond Galaxy to the Universe</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">price:1299</li>
+                <li class="list-group-item">discountPercentage: 15.46</li>
+                <li class="list-group-item">rating: 4.09</li>
+              </ul>
+              </div>     
+          </div>
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card" id="card" style="width: 18rem;">
+              <img src="https://dummyjson.com/image/i/products/4/thumbnail.jpg" class="card-img-top" alt="jkj">
+              <div class="card-body">
+                <h5 class="card-title"> OPPO F19</h5>
+                <p class="card-text">OPPO F19 is officially announced on April 2021.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">price:280</li>
+                <li class="list-group-item">discountPercentage:17.91</li>
+                <li class="list-group-item">rating:4.3 </li>
+              </ul>
+              </div>     
+          </div>
+        </div>
+        <div class ="row my-5 align-item-center justify-content-center">
+          <div class="col-8 col-lg-4 col-xl-3">
+           <div class="card" id="card" style="width: 18rem;">
+              <img src="https://dummyjson.com/image/i/products/5/thumbnail.jpg" class="card-img-top" alt="jkj">
+              <div class="card-body">
+                <h5 class="card-title">Huawei P30</h5>
+                <p class="card-text">Huawei re-badged P30 Pro New Edition was officially unveiled yesterday in Germany</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">price:499</li>
+                <li class="list-group-item">discountPercentage: 10.58</li>
+                <li class="list-group-item">rating: 4.09</li>
+              </ul>
+              </div>
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card" id="card" style="width: 18rem;">
+                <img src="https://dummyjson.com/image/i/products/6/thumbnail.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Macbook Pro</h5>
+                  <p class="card-text"> MacBook Pro 2021 with mini-LED display may launch between September, November</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">price:1749</li>
+                  <li class="list-group-item">discountPercentage:11.02</li>
+                  <li class="list-group-item">rating: 4.57</li>
+                </ul>
+                </div>     
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card" id="card" style="width: 18rem;">
+                <img src="https://dummyjson.com/image/i/products/7/thumbnail.jpg" class="card-img-top" alt="jkj">
+                <div class="card-body">
+                  <h5 class="card-title">Samsung Galaxy Book </h5>
+                  <p class="card-text">Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">price:1499</li>
+                  <li class="list-group-item">discountPercentage: 4.15</li>
+                  <li class="list-group-item">rating: 4.25</li>
+                </ul>
+                </div>     
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card" id="card" style="width: 18rem;">
+                <img src="https://dummyjson.com/image/i/products/8/thumbnail.jpg" class="card-img-top" alt="jkj">
+                <div class="card-body">
+                  <h5 class="card-title">Microsoft Surface Laptop 4 </h5>
+                  <p class="card-text">Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">price:1499</li>
+                  <li class="list-group-item">discountPercentage:10.23</li>
+                  <li class="list-group-item">rating:4.43 </li>
+                </ul>
+                </div>     
+            </div>
+          </div> 
+          <div class ="row my-5 align-item-center justify-content-center">
+            <div class="col-8 col-lg-4 col-xl-3">
+             <div class="card" id="card" style="width: 18rem;">
+                <img src="https://dummyjson.com/image/i/products/9/thumbnail.jpg" class="card-img-top" alt="jkj">
+                <div class="card-body">
+                  <h5 class="card-title">Infinix INBOOK</h5>
+                  <p class="card-text">Laptop</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">price:1099</li>
+                  <li class="list-group-item">discountPercentage:11.83</li>
+                  <li class="list-group-item">rating: 4.54</li>
+                </ul>
+                </div>
+              </div>
+              <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card" id="card" style="width: 18rem;">
+                  <img src="https://dummyjson.com/image/i/products/10/thumbnail.jpg" class="card-img-top" alt="jkj">
+                  <div class="card-body">
+                    <h5 class="card-title">HP Pavillion 15-DK1056M</h5>
+                    <p class="card-text"> HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">price:1099</li>
+                    <li class="list-group-item">discountPercentage: 6.98</li>
+                    <li class="list-group-item">rating: 4.43</li>
+                  </ul>
+                  </div>     
+              </div>
+              <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card" id="card" style="width: 18rem;">
+                  <img src="https://dummyjson.com/image/i/products/11/thumbnail.jpg" class="card-img-top" alt="jkj">
+                  <div class="card-body">
+                    <h5 class="card-title">Perfume OIL</h5>
+                    <p class="card-text">Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">price:13</li>
+                    <li class="list-group-item">discountPercentage: 8.4</li>
+                    <li class="list-group-item">rating: 4.26</li>
+                  </ul>
+                  </div>     
+              </div>
+              <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card" id="card" style="width: 18rem;">
+                  <img src="https://dummyjson.com/image/i/products/12/thumbnail.jpg" class="card-img-top" alt="jkj">
+                  <div class="card-body">
+                    <h5 class="card-title">Brown Perfume </h5>
+                    <p class="card-text">Royal_Mirage Sport Brown Perfume for Men & Women - 120ml</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">price:40</li>
+                    <li class="list-group-item">discountPercentage:15.66</li>
+                    <li class="list-group-item">rating:4 </li>
+                  </ul>
+                  </div>     
+              </div>
+            </div> 
+            <div class ="row my-5 align-item-center justify-content-center">
+              <div class="col-8 col-lg-4 col-xl-3">
+               <div class="card" id="card" style="width: 18rem;">
+                  <img src="https://dummyjson.com/image/i/products/13/thumbnail.jpg" class="card-img-top" alt="jkj">
+                  <div class="card-body">
+                    <h5 class="card-title">Fog Scent Xpressio Perfume</h5>
+                    <p class="card-text"> Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">price:13</li>
+                    <li class="list-group-item">discountPercentage: 8.14</li>
+                    <li class="list-group-item">rating: 4.59</li>
+                  </ul>
+                  </div>
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                  <div class="card" id="card" style="width: 18rem;">
+                    <img src="https://dummyjson.com/image/i/products/14/thumbnail.jpg" class="card-img-top" alt="jkj">
+                    <div class="card-body">
+                      <h5 class="card-title">Non-Alcoholic Concentrated Perfume Oil</h5>
+                      <p class="card-text"> Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">price:120</li>
+                      <li class="list-group-item">discountPercentage: 15.96</li>
+                      <li class="list-group-item">rating: 4.21</li>
+                    </ul>
+                    </div>     
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                  <div class="card" id="card" style="width: 18rem;">
+                    <img src="https://dummyjson.com/image/i/products/15/thumbnail.jpg" class="card-img-top" alt="jkj">
+                    <div class="card-body">
+                      <h5 class="card-title">Eau De Perfume Spray </h5>
+                      <p class="card-text">Genuine Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">price:30</li>
+                      <li class="list-group-item">discountPercentage:10.99</li>
+                      <li class="list-group-item">rating: 4.7</li>
+                    </ul>
+                    </div>     
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                  <div class="card" id="card" style="width: 18rem;">
+                    <img src="https://dummyjson.com/image/i/products/16/thumbnail.jpg" class="card-img-top" alt="jkj">
+                    <div class="card-body">
+                      <h5 class="card-title">Hyaluronic Acid Serum" </h5>
+                      <p class="card-text">L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">price:19</li>
+                      <li class="list-group-item">discountPercentage:13.31</li>
+                      <li class="list-group-item">rating:4.83 </li>
+                    </ul>
+                    </div>     
+                </div>
+              </div> 
+              <div class ="row my-5 align-item-center justify-content-center">
+                <div class="col-8 col-lg-4 col-xl-3">
+                 <div class="card" id="card" style="width: 18rem;">
+                    <img src="https://dummyjson.com/image/i/products/17/thumbnail.jpg" class="card-img-top" alt="jkj">
+                    <div class="card-body">
+                      <h5 class="card-title">Tree Oil 30ml</h5>
+                      <p class="card-text"> Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">price:12</li>
+                      <li class="list-group-item">discountPercentage: 4.09</li>
+                      <li class="list-group-item">rating: 4.69</li>
+                    </ul>
+                    </div>
+                  </div>
+                  <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card" id="card" style="width: 18rem;">
+                      <img src="https://dummyjson.com/image/i/products/18/thumbnail.jpg" class="card-img-top" alt="jkj">
+                      <div class="card-body">
+                        <h5 class="card-title">Oil Free Moisturizer 100ml</h5>
+                        <p class="card-text"> Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">price:40</li>
+                        <li class="list-group-item">discountPercentage: 13.1</li>
+                        <li class="list-group-item">rating:4.56</li>
+                      </ul>
+                      </div>     
+                  </div>
+                  <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card" id="card" style="width: 18rem;">
+                      <img src="https://dummyjson.com/image/i/products/19/thumbnail.jpg" class="card-img-top" alt="jkj">
+                      <div class="card-body">
+                        <h5 class="card-title">Skin Beauty Serum. </h5>
+                        <p class="card-text">Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">price:43.36</li>
+                        <li class="list-group-item">discountPercentage: 10.09</li>
+                        <li class="list-group-item">rating: 4.49</li>
+                      </ul>
+                      </div>     
+                  </div>
+                  <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card" id="card" style="width: 18rem;">
+                      <img src="https://dummyjson.com/image/i/products/20/thumbnail.jpg" class="card-img-top" alt="jkj">
+                      <div class="card-body">
+                        <h5 class="card-title">Freckle Treatment Cream- 15gm </h5>
+                        <p class="card-text">Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">price:35</li>
+                        <li class="list-group-item">discountPercentage:7.05</li>
+                        <li class="list-group-item">rating:4.48 </li>
+                      </ul>
+                      </div>     
+                  </div>
+                </div> 
+                <div class ="row my-5 align-item-center justify-content-center">
+                  <div class="col-8 col-lg-4 col-xl-3">
+                   <div class="card" id="card" style="width: 18rem;">
+                      <img src="https://dummyjson.com/image/i/products/21/thumbnail.jpg" class="card-img-top" alt="jkj">
+                      <div class="card-body">
+                        <h5 class="card-title">Daal Masoor 500 grams</h5>
+                        <p class="card-text">Fine quality Branded Product Keep in a cool and dry place</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">price:20</li>
+                        <li class="list-group-item">discountPercentage: 4.81</li>
+                        <li class="list-group-item">rating: 4.44</li>
+                      </ul>
+                      </div>
+                    </div>
+                    <div class="col-8 col-lg-4 col-xl-3">
+                      <div class="card" id="card" style="width: 18rem;">
+                        <img src="https://dummyjson.com/image/i/products/22/thumbnail.jpg" class="card-img-top" alt="jkj">
+                        <div class="card-body">
+                          <h5 class="card-title">Elbow Macaroni - 400 gm</h5>
+                          <p class="card-text"> Product details of Bake Parlor Big Elbow Macaroni - 400 gm</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">price:14</li>
+                          <li class="list-group-item">discountPercentage: 15.94</li>
+                          <li class="list-group-item">rating: 4.57</li>
+                        </ul>
+                        </div>     
+                    </div>
+                    <div class="col-8 col-lg-4 col-xl-3">
+                      <div class="card" id="card" style="width: 18rem;">
+                        <img src="https://dummyjson.com/image/i/products/23/thumbnail.jpg" class="card-img-top" alt="jkj">
+                        <div class="card-body">
+                          <h5 class="card-title">Orange Essence Food Flavou </h5>
+                          <p class="card-text">Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">price:14</li>
+                          <li class="list-group-item">discountPercentage: 8.04</li>
+                          <li class="list-group-item">rating:4.85</li>
+                        </ul>
+                        </div>     
+                    </div>
+                    <div class="col-8 col-lg-4 col-xl-3">
+                      <div class="card" id="card" style="width: 18rem;">
+                        <img src="https://dummyjson.com/image/i/products/24/thumbnail.jpg" class="card-img-top" alt="jkj">
+                        <div class="card-body">
+                          <h5 class="card-title">cereals muesli fruit nuts </h5>
+                          <p class="card-text">original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">price:46</li>
+                          <li class="list-group-item">discountPercentage:16.8</li>
+                          <li class="list-group-item">rating:4.94 </li>
+                        </ul>
+                        </div>     
+                    </div>
+                  </div>  
+     </div>
+    </div>
+   </section>      
+  <script src="inputprogram.js"></script>
+</body>
+</html>
